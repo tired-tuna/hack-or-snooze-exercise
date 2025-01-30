@@ -2,6 +2,9 @@
 
 .stories-list {
   margin: 20px 5px;
+  height: 80vh;
+  overflow: scroll;
+  scrollbar-width: none;
 }
 
 .stories-list > li {
@@ -27,13 +30,13 @@
 .trash-can {
   cursor: pointer;
   font-size: .75rem;
-  margin: o 5px;
+  margin: 0 5px;
 }
 
 .story-link {
   color: black;
   font-size: 0.85rem;
-  font-weight: normal;
+  font-weight: bold;
   margin: 18px 0;
 }
 
@@ -44,14 +47,16 @@
 .story-author {
   margin-left: 2em;
   font-size: .85rem;
+  font-weight: bold;
   color: green;
   padding: 6px 0;
-
+  display: block;
 }
 
 .story-user {
   display: block;
   margin-left: 2em;
   font-size: .85rem;
+  font-weight: bold;
   color: orange;
 }

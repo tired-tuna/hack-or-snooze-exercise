@@ -9,7 +9,7 @@ nav {
 }
 
 .navbar-brand {
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 .navbar-main {
@@ -21,10 +21,17 @@ nav {
 
 .nav-link {
   font-size: 0.85rem;
-  margin: 0 3px;
 }
 
 .nav-right {
   margin-left: auto;
   text-align: right;
+}
+
+#nav-login {
+  font-weight: bold;
+}
+
+#nav-user-profile {
+  font-weight: bold;
 }
